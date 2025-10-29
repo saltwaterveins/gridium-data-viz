@@ -24,3 +24,55 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.heatmap-header {
+  color: palevioletred;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.y-axis, .x-axis {
+  font-size: 12px;
+  stroke-width: 0px;
+  color: palevioletred; 
+}
+
+.heatmap-tooltip {
+  position: absolute;
+  background-color: white;
+  color: PaleVioletRed;
+  border-width: 2px;
+  border-color: PaleVioletRed;
+  border-radius: 4px;
+  padding: 5px 8px;
+  font-size: 12px;
+  display: none;
+  pointer-events: none;
+}
+
+.bar-stack-header {
+  color: cornflowerblue;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.y-axis-stack, .x-axis-stack {
+  font-size: 12px;
+  stroke-width: 1px;
+  color: cornflowerblue; 
+}
+
+.bar-stack-tooltip {
+  position: absolute;
+  background-color: white;
+  color: cornflowerblue;
+  border-width: 2px;
+  border-color: cornflowerblue;
+  border-radius: 4px;
+  padding: 5px 8px;
+  font-size: 12px;
+  display: none;
+  pointer-events: none;
+}
